@@ -9,6 +9,6 @@ def callback (channel):
 		print ("no water detected")
 		else:
 print("water detected")
-GPIO.add__event_detect(chanel, GPIO.BOTH,bouncetime=300)
+GPIO.add__event_detect(channel, GPIO.BOTH,bouncetime=300)
 while true:
  time.sleep(1)
